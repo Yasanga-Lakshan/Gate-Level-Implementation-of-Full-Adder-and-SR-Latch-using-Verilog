@@ -1,0 +1,9 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_Vivado_2019.2_1106_2127/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bd19a52df46343bd807123cd7784898e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot full_adder_TB_behav xil_defaultlib.full_adder_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'Sum' is not permitted [C:/Users/user/Desktop/Digital Synthesis Labs/LAb 01/1_Bit_Full_Adder/1_Bit_Full_Adder.srcs/sim_1/new/1_Bit_Full_Adder_TB.v:32]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'Carry_out' is not permitted [C:/Users/user/Desktop/Digital Synthesis Labs/LAb 01/1_Bit_Full_Adder/1_Bit_Full_Adder.srcs/sim_1/new/1_Bit_Full_Adder_TB.v:33]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
